@@ -1,6 +1,8 @@
 body,
 html {
-    font-family: "Parisienne", serif;
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -20,13 +22,13 @@ html {
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
+    filter: brightness(60%);
 }
 h1 {
     margin-top: 25%;
     position: absolute;
-    font-weight: 500;
-    font-style: normal;
     font-size: 4rem;
+    z-index: 2;
     color: #ffffff;
 }
 
@@ -44,6 +46,7 @@ h1 {
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
+    filter: brightness(95%);
 }
 
 .Top3 {
@@ -59,6 +62,7 @@ h1 {
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
+    filter: brightness(60%);
 }
 
 .Top4 {
@@ -75,6 +79,7 @@ h1 {
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
+    filter: brightness(95%);
 }
 
 .Top5 {
@@ -91,4 +96,38 @@ h1 {
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
+    filter: brightness(60%);
+}
+
+#Countdown{
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 50%;
+    position: absolute;
+    font-size: 3rem;
+    z-index: 2;
+    color: #ffffff;
+}
+
+.Times{
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 60%;
+    position: absolute;
+    font-size: 1rem;
+    z-index: 2;
+    color: #ffffff;
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0);
+}
+.Days{
+    margin-left: 22%;
+}
+.Hours{
+    margin-left: 9%;
+}
+.Minutes{
+    margin-left: 4.4%;
+}
+.Seconds{
+    margin-left: 3%;
 }
